@@ -109,3 +109,11 @@ nav.mobile-menu a.not-allowed li {
   color: #76777b !important;
   cursor: not-allowed;
 }
+
+.logos {
+  height: 1.2rem;
+}
+
+.logos .logo {
+  height: inherit;
+}
