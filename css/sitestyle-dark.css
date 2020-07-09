@@ -21,13 +21,13 @@ a {
   text-decoration: none;
 }
 
-a.download-link {
+a.download-link, a.link {
   color: #0a2b4c;
   font-weight: bold;
   font-family: 'Lato', sans-serif;
 }
 
-a.download-link:hover, a.download-link:visited {
+a.download-link:hover, a.download-link:visited, a.link:hover, a.link:visited {
   color: #91a4ff;
   font-weight: initial;
   font-family: 'Lato', sans-serif;
