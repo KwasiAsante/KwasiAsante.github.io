@@ -400,6 +400,7 @@ article#projects h4 {
 
 .project-entry.inactive {
   opacity: 0;
+  z-index: -10; /* Put the inactive project elements behind everything else, so we don't run into issues where you can't highlight the current project text or click the correct link 🤦🏾‍♀️ */
 }
 
 .project-screens {
