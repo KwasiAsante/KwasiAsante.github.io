@@ -263,7 +263,7 @@ article p {
   box-shadow: 18px 20px rgba(53, 44, 44, 0.85);
   padding: 3em;
   max-height: 90vh;
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 1.4rem;
   display: flex;
   flex-direction: column;
@@ -273,7 +273,7 @@ article p {
 @supports (display: grid) {
   .about-me.page-section article {
     grid-column: 2 / 12;
-    grid-row: 2 / 6;
+    grid-row: 2 / 5;
     height: auto !important;
     margin: 0;
     overflow: auto;
